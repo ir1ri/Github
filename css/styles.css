@@ -1,6 +1,20 @@
+
+.logo1 {
+    padding-bottom: 20px;
+    padding-top: 5px;
+}
+
+.search-el {
+  background-image:url(9.JPG);
+  background-repeat:no-repeat;
+  background-position: right;
+  padding-left: 7px;
+}
+
 .jumbotron {
+    align-content: 0;
     background-color: black;
-    height: 400px;
+    height: 450px;
     font-family: sans-serif;
     color: white;
     margin-top: 5px;
@@ -9,6 +23,21 @@
 #build {
     color: white;
 }
+
+.col-md-8 {
+    padding-left: 350px;
+}
+
+.pad {
+    padding-top: -20px;
+    color: #999;
+}
+
+.position {
+    padding: 20px 100px 0px 0px;
+}
+
+
 
 #blue {
     color: #4183c4;
@@ -107,24 +136,17 @@ ul li {
     margin-left: 30px;
 }
 
-.left-footer {
-    float: left;
-    margin: 0;
-    list-style: none;
+
+ul li a {
     font-size: 12px;
-    line-height: 1.5;
-    color: #777;
-    display: inline;
+    text-decoration: none;
 }
 
-.right-footer {
-    float: right;
-    margin: 0;
-    list-style: none;
-    font-size: 12px;
-    line-height: 1.5;
-    color: #777;
-    display: inline;
+.container-foot {
+        width: 1020px;
+        height: 99px;
+}
+
 }
 
 

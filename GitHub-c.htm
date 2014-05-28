@@ -11,47 +11,58 @@
     
     <body>
         <div class="navbar navbar-static-top">
-        <div class="container">
-            
-        <a class="navbar-brand" href="https://github.com/"><img src="img/GitHub.JPG" alt="Your Logo"></a>
-            
-            <div class="nav-collapse collapse navbar-responsive-collapse">
-            
-                <ul class="nav navbar-nav">
-                    
-                    <li class="active">
-                        <form class="navbar-form">
-                        <input type="text" class="form-control" placeholder="Search or type a command" id="search-input">
-                        </form>
-                    <li class="active">
-                        <a href="#">Explore</a>
-                    </li>
+            <div class="container" >
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a class="navbar-brand logo1" href="#"><img src="img/GitHub.JPG" alt="Your Logo"></a>
+                
+                </div>
+                
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control search-el" placeholder="Search or type a command" id="search-input">
+                        </div>
+                    </form>
+                
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Explore</a></li>
                     <li><a href="#">Features</a></li>
                     <li><a href="#">Enterprise</a></li>
                     <li><a href="#">Blog</a></li>
-                
+                    <li><button type="button" class="btn btn-default navbar-btn">Sign in</button></li>
                 </ul>
-            
-            </div>
-            
-        </div>
+                
+                
+
+                </div> <!-- /.container -->
+
+            </div> <!-- /.navbar navbar-static-top -->
         
         </div>
    
         
         
                 
-        <div class="container">
+
             
             <div class="jumbotron">
                 
+                <div class="position">
+                
                  <div class="col-md-8">
                 
-                    <h1 id="build">Build software better, together.</h1>
+                    <h1 id="build">Build software <br> better, together.</h1>
                     <h4>Powerful collaboration, code review, and code management for <br>open source and private projects. Need private repositories?</h4>
                     <a id="blue" href="http://github.com/pricing"><h4>Upgraded plans start at $7/mo.</h4></a>
                                                        
                  </div>
+                
                 <div class="col-md-4">
                   <form class="form-horizontal">
 
@@ -76,14 +87,14 @@
                             </div>
                             <div class="form-group">
                                 <div class="col-lg-10">
-                                    <h6>Use at least one lowercase letter, one numeral, and seven characters.</h6>
+                                    <h6 class="pad">Use at least one lowercase letter, one numeral, and seven characters.</h6>
                                 </div>
                             </div>
                             
                             <div class="form-group" id="sign">
                                 <div class="col-lg-10">
                                     <button type="submit" class="btn btn-success" id="signup">Sign up for GitHub</button>
-                                    <h6 style="color:#999">By clicking "Sign up for GitHub", you agree to our terms of service and privacy policy. We will send you account related emails occasionally.</h6>
+                                    <h6 style="color:#999">By clicking "Sign up for GitHub", you agree to our <a href="#">terms of service</a> and <a href="#">privacy policy</a>. We will send you account related emails occasionally.</h6>
                                 </div>
                             </div>
                    
@@ -92,9 +103,9 @@
 
                    </form>
                 </div>
-                
+                </div>
             </div>
-        </div>
+
                 
                 
     <div class="center"> 
@@ -183,26 +194,37 @@
     
         <br><br>
         
-    <div class="navbar navbar-static-bottom">
+    
+     <div class="navbar navbar-static-top">
         
-        <ul class="left-footer">
-        <p>© 2014 GitHub, Inc. </p>
-       <li><a href="#">Terms</a></li>
-       <li><a href="#">Privacy</a></li>
-       <li><a href="#">Security</a></li>
-       <li><a href="#">Contact</a></li>
-        </ul>
+        <div class="container container-foot">
+            
+            <div class="row">
         
-        <ul class="right-footer">
-       <li><a href="#">Status</a></li>
-       <li><a href="#">API</a></li>
-       <li><a href="#">Training</a></li>
-       <li><a href="#">Shop</a></li>
-       <li><a href="#">Blog</a></li>
-       <li><a href="#">About</a></li>
-        </ul>
-        
-    </div>
+                <ul class="nav navbar-nav navbar-left">
+                    <li style="font-size: 12px"><a style="color:#777">© 2014 GitHub, Inc.</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul> <!-- /.nav navbar-nav navbar-right -->
+                
+                <img src="img/10.JPG"/>         
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Status</a></li>
+                    <li><a href="#">API</a></li>
+                    <li><a href="#">Training</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">About</a></li>
+                </ul> <!-- /.nav navbar-nav navbar-right -->
+                
+            </div> <!-- /.row -->
+       
+        </div> <!-- /.container -->
+    
+    </div> <!-- /.navbar navbar-static-top -->
         
         
 
